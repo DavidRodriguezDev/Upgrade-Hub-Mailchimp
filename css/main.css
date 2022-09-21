@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+legend {
+    display: none;
+}
+
+fieldset {
+    border: none;
+}
+
+.container {
+    display: flex;
+}
+
+.logotipo {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.formulario {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.welcome, .find{
+    margin-bottom: 20px;
+}
+
+.estilo-input {
+    height: 35px;
+    width: 85%;
+}
+
+p {
+    margin: 10px 0 10px 0;
+}
+
+.listado {
+    margin-top: 35px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu-uno {
+    margin-left: 10px;
+}
+
+.menu-dos {
+    margin-left: 300px;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    margin-top: 20px;
+}
+
+.elementosbotones {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.check {
+    display: flex;
+
+}
+
+.texto-final {
+    margin-top: 40px;
+}
+

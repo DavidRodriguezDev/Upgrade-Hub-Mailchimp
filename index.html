@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Mailchimp</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logotipo"> <!--Contenedor logotipo-->
+            <img src="/mailchimp/img/logo.svg">
+        </div>
+        <div class="formulario"> <!--Contenedor formulario-->
+            <h2 class="welcome">Welcome to Mailchimp</h2>
+            <p class="find">Find your people. Engage your costumers. Build your brand. Do it all with Mailchimp´s Marketing
+                Platform. Already have an account? <a href="#">Log in</a>
+            </p>
+            <form>
+                <fieldset>
+                    <legend>Datos Básicos</legend>
+                        <label for="email"><p>Email</p> </label>
+                        <input class="estilo-input" type="email" id="email" name="email" required>
+                        <label for="user"><p>Username</p></label>
+                        <input class="estilo-input" type="text" id="user" name="user" required>
+                        <label for="psw"><p>Password</p></label>
+                        <input class="estilo-input" type="password" id="psw" name="psw" required>       
+                    <div class="listado">     
+                        <div class="menu-uno">
+                            <ul>
+                                <li>One lowercase character</li>
+                                <li>One uppercase character</li>
+                                <li>One number</li>
+                            </ul>
+                        </div>
+                        <div class="menu-dos">
+                            <ul>
+                                <li>One special character</li>
+                                <li>8 characters minimum</li>
+                            </ul>
+                        </div>
+                    </div>    
+                    <div class="elementosbotones">
+                        <div class="boton">
+                            <button>Sign Up</button>
+                        </div>   
+                        <div class="check">    
+                            <label>
+                                <input type="checkbox" id="cbox1"> <p>I don´t want to receive emails about new
+                            Mailchimp products, best practices, or special offers.</p>
+                            </label>
+                        </div>
+                    </div> 
+                    <div class="texto-final">
+                        <p>By clicking the "Sign Up" button, you are creating a Mailchimp account, and you
+                            agree to Mailchimp´s <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>
+                        </p>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
